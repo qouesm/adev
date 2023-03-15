@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * { */
+/*   @apply text-slate-700 */
+/* } */
+
+a {
+	@apply text-fuchsia-500 hover:text-fuchsia-700 transition-colors font-bold cursor-pointer;
+}
+
+h1 {
+	@apply font-bold text-6xl;
+}
+
+h2 {
+	@apply font-bold text-5xl;
+}
+
+h3 {
+	@apply font-bold text-4xl;
+}
+
+h4 {
+	@apply font-bold text-3xl;
+}
+
+h5 {
+	@apply font-bold text-2xl;
+}
+
+h6 {
+	@apply font-bold text-xl;
+}
