@@ -1,38 +1,63 @@
-# create-svelte
+# adev
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## A personal landing page for me, Andrew Avella
 
-## Creating a project
+## [andrewavella.dev](https://andrewavella.dev)
 
-If you're seeing this, you've probably already done this step. Congrats!
+# TODO
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- Add headshot
+- Add logo/favicon
 
-# create a new project in my-app
-npm create svelte@latest my-app
+### Info
+
+This project was made as a landing page for any potential future employers (Hello if you're reading this!) so that I can link together my resume with my various links and contact info.
+It's built with [Svelte](https://svelte.dev/) ([SvelteKit](https://kit.svelte.dev/)) and [TailwindCSS](https://tailwindcss.com/) to be very simple but extensible when I need it to be.
+
+### Development
+
+Clone the repo
+```
+git clone git@github.com:qouesm/adev.git
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+Navigate to the repo
+```
+cd adev
 ```
 
-## Building
-
-To create a production version of your app:
-
-```bash
+To serve the page locally one time
+```
 npm run build
+npm run preview
 ```
 
-You can preview the production build with `npm run preview`.
+To reload the app when changes are made
+```
+npm run dev
+```
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Prettier and ESLint are included for project formatting and linting respectively
+```
+npm run format
+npm run lint
+```
+
+### Deployment
+
+This project is intended to be deployed in a Docker container so that it may be hosted from my Raspberry Pi.
+
+Assuming you have cloned and navigated to the repo:
+
+First build the image
+```
+docker build . -t adev
+```
+
+Then run it
+```
+docker run -p 3000:3000 --name adev adev
+```
+
+The website will be available on http://localhost:3000.
+At this point I set up a Cloudflare tunnel to serve the page publicly.

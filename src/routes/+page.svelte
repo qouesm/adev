@@ -2,8 +2,7 @@
 	import Header from '../components/Header.svelte';
 	import Footer from '../components/Footer.svelte';
 
-	// import Portrait from '../assets/portrait.png'
-	import Portrait from '../assets/headshot.jpg';
+	import Portrait from '../assets/logo.png'; // TODO change
 	import Icon from '../components/Icon.svelte';
 	import Button from '../components/Button.svelte';
 </script>
