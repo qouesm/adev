@@ -7,9 +7,9 @@
 	import Button from '../components/Button.svelte';
 </script>
 
-<div class="flex h-auto flex-col justify-between gap-y-4 bg-svelte-50 md:h-screen">
+<div class="flex h-auto flex-col justify-between gap-y-4 min-h-screen">
 	<Header />
-	<main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+	<main class="grow mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<div class="flex flex-col justify-between gap-8 py-8 md:flex-row md:gap-0 md:py-0">
 			<div class="flex w-full flex-col gap-10 md:w-2/4">
 				<div class="flex flex-col items-start gap-4">
@@ -20,7 +20,7 @@
 						For Hire
 					</div>
 					<p class="text-2xl text-slate-700">
-						Senior at SUNY New Paltz graduating this May with a B.S. in Computer Science on the job
+						Senior at SUNY New Paltz graduating May 2023 with a B.S. in Computer Science on the job
 						hunt. Hire me?
 					</p>
 				</div>
