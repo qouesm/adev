@@ -65,7 +65,7 @@
 					</p>
 				</div>
 			</div>
-			<a href="src/assets/resume.pdf" target="_blank" rel="noreferrer">
+			<a href="/resume.pdf" target="_blank" rel="noreferrer">
 				<img class="relative object-cover w-[500px]" src={Portrait} alt="Portrait" />
 			</a>
 		</div>
