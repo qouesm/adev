@@ -20,8 +20,7 @@
 						For Hire
 					</div>
 					<p class="text-2xl text-slate-700">
-						Senior at SUNY New Paltz graduating May 2023 with a B.S. in Computer Science on the job
-						hunt. Hire me?
+						Recent graduate of SUNY New Paltz with a B.S. in Computer Science on the job hunt. Hire me?
 					</p>
 				</div>
 				<div class="flex gap-4 flex-wrap">
