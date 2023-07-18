@@ -20,7 +20,7 @@
 						For Hire
 					</div>
 					<p class="text-2xl text-slate-700">
-						Recent graduate of SUNY New Paltz with a B.S. in Computer Science on the job hunt. Hire me?
+						Graduate of SUNY New Paltz with a B.S. in Computer Science on the job hunt. Hire me?
 					</p>
 				</div>
 				<div class="flex gap-4 flex-wrap">
@@ -59,8 +59,7 @@
 							href="https://github.com/qouesm/"
 							target="_blank"
 							rel="noreferrer">Github</a
-						> for more details. Please consider me for employment opportunities pending my graduation
-						this May.
+						> for more details. Please consider me for employment opportunities.
 					</p>
 				</div>
 			</div>
